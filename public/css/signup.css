@@ -1,0 +1,121 @@
+.img-card{
+    width: 100%;
+  }
+  .signup{
+    padding-top: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 0%;
+  
+  }
+  .signup-form{
+    padding-right: 7%;
+    padding-left: 7%;
+  
+  }
+  body {
+          color: #fff;
+          background: #ffc75f;
+          font-family: 'Montserrat', sans-serif;
+      }
+      .form-control, .form-control:focus, .input-group-addon {
+          border-color: #e1e1e1;
+      }
+      .form-control, .btn {
+          border-radius: 3px;
+      }
+      .signup-form form {
+          color: #999;
+          border-radius: 3px;
+          margin-bottom: 15px;
+          background: #fff;
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+          padding: 30px;
+      }
+      .signup-form h2 {
+          color: #333;
+          font-weight: bold;
+          margin-top: 0;
+      }
+      .signup-form hr {
+          margin: 0 -30px 20px;
+      }
+      .signup-form .form-group {
+          margin-bottom: 20px;
+      }
+      .signup-form label {
+          font-weight: normal;
+          font-size: 13px;
+      }
+   .form-control {
+          min-height: 38px;
+          box-shadow: none !important;
+      margin-right: 20px;
+      }
+      .signup-form .input-group-addon {
+          max-width: 42px;
+          text-align: center;
+      }
+      .signup-form input[type="checkbox"] {
+          margin-top: 2px;
+      }
+      .signup-form .btn{
+          font-size: 16px;
+          font-weight: bold;
+          background: #ffc75f;
+          border: none;
+          min-width: 140px;
+      }
+      .signup-form .btn:hover, .signup-form .btn:focus {
+          background: #EDA03C;
+          outline: none;
+      }
+      .signup-form a {
+          color:#EDA03C;
+      font-weight: bold;
+          text-decoration: underline;
+      }
+      .signup-form a:hover {
+          text-decoration: none;
+      }
+      .signup-form form a {
+          color: #ffc75f;
+          text-decoration: none;
+      }
+      .signup-form form a:hover {
+          text-decoration: underline;
+      }
+      .fa {
+          font-size: 21px;
+      top: 20px;
+      }
+      .signup-form .fa-paper-plane {
+          font-size: 18px;
+      }
+      .fa-check {
+          color: #e1e1e1;
+          left: 17px;
+          top: 22px;
+          font-size: 7px;
+          position: absolute;
+      }
+  .checkbox-inline{
+    color: Black;
+    }
+    .input-group-addon{
+      background-color:#e1e1e1;
+    width: 20%;
+          text-align: center;
+      color: #333;
+       padding-top: 10px;
+        }
+    .text-center a{
+        color: black ;
+        text-decoration: none;
+        font-weight: bold;
+  
+        }
+        .text-center a:hover{
+          text-decoration: underline;
+        }
+  

@@ -1,0 +1,188 @@
+/* for id we use # */
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+   h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  em {
+    font-weight: 700;
+  }
+  p {
+    color: #8f8f8f;
+  }
+
+ /* Headings */
+  .htag {
+    font-family: "Montserrat-Black", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  /* Navigation Bar */
+ #title{
+   background-color: #a6e3e9;
+   color: #fff;
+   text-align: left;
+  }
+ .bgimg{
+   background-image: url("../images/education.jpg");
+   filter: blur(8px);
+   -webkit-filter: blur(8px);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+   }
+
+  .bg-text {
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+   color: white;
+   font-weight: bold;
+   border: 1px solid #f1f1f1;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 63%;
+   padding: 20px;
+   text-align: center;
+ }
+ .container-fluid{
+  padding: 3% 15% 7%;
+ }
+ .navbar{
+   padding: 0 0 4.5rem;
+ }
+ .navbar-brand {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+ .nav-item{
+   padding: 0 10px;
+ }
+ .nav-link{
+   font-size: 1.2rem;
+   font-family: "Montserrat-Light", sans-serif;
+   font-weight: 100;
+ }
+ /* Download Buttons */
+ .download-btn{
+   margin: 5% 3% 5% 0;
+ }
+ /* Title Image */
+ .title-img{
+   width: 50%;
+   position: absolute;
+   filter: blur(8px);
+   -webkit-filter: blur(8px);
+ }
+
+ /* Features Section */
+ #features {
+   padding: 7% 15%;
+   background-color: white;
+   position: relative;
+   z-index: 1;
+ }
+ .feature-box{
+   padding: 5%;
+ }
+
+ .icon {
+   color: #ffc478;
+   margin-bottom: 1rem;
+ }
+ /* Importtant-hover state */
+ .icon:hover {
+   color: #a6e3e9;
+ }
+
+ /* testimonial Section */
+ #testimonials {
+
+   background-color: #ffc478;
+   color: #fff;
+ }
+ .testimonial-img {
+   width: 30%;
+   border-radius: 100%;
+ margin-left: 15%;
+ margin-right: 20px;
+   text-align: center;
+ }
+ .carousel-item {
+     padding: 7% 15%;
+ }
+
+
+ /* Pricing Section */
+ #about {
+   padding: 75px;
+
+ }
+ .pricing-col{
+   padding: 3% 2%;
+ }
+ .comp-img{
+   width: 25%;
+   float:left;
+   margin-right: 30px;
+   border-radius: 100%;
+ }
+ .study{
+   width: 30%;
+   float:right;
+   margin-left: 30px;
+   border-radius: 100%;
+ }
+ .info{
+     width: 60%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+ }
+
+ /* Section CTA */
+ #cta {
+   background-color: #a6e3e9;
+   color: #fff;
+   padding: 7% 15%;
+
+ }
+ .cta-hd {
+   font-family: "Montserrat-Black", sans-serif;
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+ }
+
+ /* Footer section */
+ #footer {
+   padding: 7% 15%;
+ }
+ .social-icon {
+   margin: 10px 20px;
+ }
+ @media (max-width: 1028px){
+   #title{
+ text-align: center;
+   }
+ .title-img{
+     position: static;
+     width: 50%;
+   }
+ }

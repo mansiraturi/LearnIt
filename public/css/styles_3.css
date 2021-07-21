@@ -1,0 +1,229 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color: #424642;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family:"Montserrat-Bold";
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-left: 300px;
+    
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-color: #9ddfd3;
+    color: #fff;
+  }
+  
+  
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: auto;
+    margin-top: 10px;
+  }
+  
+  .navbar-brand {
+    font-family: "Montserrat-Light";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title {
+    background-color: #9ddfd3;
+    color: #fff;
+    text-align: left;
+    
+  }
+  
+  #title .container-fluid {
+    padding: 5% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  .parents {
+    width: 90%;
+    left: 90%;
+    margin-left: 80px ;
+    margin-top: 5%;
+    border-radius: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  /* Testimonial Section */
+  
+  #testimonials {
+    background-color: #ff165d;
+  }
+  
+  .testimonial-text {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  
+  
+  
+  
+  
+  #press {
+    background-color: #ff165d;
+    padding-bottom: 3%;
+  }
+  
+  .chat-button{
+    margin-bottom: 100px;
+    top: 150px;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* Pricing Section */
+  
+  #pricing {
+    padding: 100px;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  /* CTA Section */
+  .big-heading{
+    margin-left: 100px;
+  }
+   .colored-section{
+     background-color: #ffffff;
+   }
+
+  .timetable{
+    position: absolute;
+    right: 870px;
+    top: 200px;
+    width: 20%;
+    margin-top: 70%;
+  }
+  .para_cta{
+    margin-right: 10px;
+  }
+  .create-button{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* Footer Section */
+  
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  .crayon{
+    position: absolute;
+    right: 280px;
+    top: 95px;
+  }
+  .crayon1{
+    position: absolute;
+    right: 420px;
+    top: 95px;
+  }
+  .crayon-1{
+    position: absolute;
+    right: 370px;
+    top: 95px;
+  }
+  
+  .atom{
+    position: absolute;
+    right: 850px;
+    top: 100px;
+    width: 30%;
+  }
+  .color-palette{
+    position: absolute;
+   right: 300px;
+    top: 0.5px;
+    width: 30%;
+    
+  }
+  .flute{
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    width: 30%;
+  }
+  
+  #footer1{
+    text-align: center;
+  }
+   #features1{
+     background-color: #9ddfd3;
+   }
